@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C45091A6-8B34-4384-B37B-8C2AF896D4AD}" SchemaVersion="75">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{C45091A6-8B34-4384-B37B-8C2AF896D4AD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C45091A6-8B34-4384-B37B-8C2AF896D4AD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Ak_Laser_Shot" ID="{F7C18362-23B3-4836-88C6-E92330AEF5C5}">
+					<ChildrenList>
+						<Action Name="Play" ID="{583156E0-6E3C-4648-A796-79C8DB8BAA5D}" ShortID="91979854" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{FF28B8FA-FAFB-4A47-8940-17A99218A2ED}" Global="false">
+									<ObjectRef Name="laser-shot-silenced" ID="{8225EBD5-B660-487D-AA13-39144DE74747}" WorkUnitID="{3947967C-CEFB-4936-B325-79302BE562A6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

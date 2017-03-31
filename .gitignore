@@ -60,4 +60,13 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
 Plugins/
+
+# Wwise
+bachelor-team-project_WwiseProject/.backup/
+bachelor-team-project_WwiseProject/.cache/
+bachelor-team-project_WwiseProject/GeneratedSoundBanks/
+*.akd
+*.validationcache
+*.wsettings

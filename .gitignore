@@ -71,3 +71,7 @@ bachelor-team-project_WwiseProject/GeneratedSoundBanks/
 *.validationcache
 *.wsettings
 TempDefinitionFile.txt
+bachelor-team-project_WwiseProject/Originals/
+*.bnk
+Content/WwiseAudio/Windows/*.txt
+Content/WwiseAudio/Windows/*.xml

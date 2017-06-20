@@ -22,6 +22,44 @@
 						<ActiveSource Name="laser-shot-silenced" ID="{785844B6-464A-44B6-BEA3-009ED73F99E9}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Armor_sfx_final" ID="{7EB78EC3-1B7F-4B77-B2D2-B82221EFF87B}" ShortID="1010214327" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Armor_sfx_final" ID="{69A12639-A29B-46B1-8511-CCB781679E43}" ShortID="186947065">
+							<Language>SFX</Language>
+							<AudioFile>Armor_sfx_final.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Armor_sfx_final" ID="{69A12639-A29B-46B1-8511-CCB781679E43}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Health_SFX" ID="{C6C81EEF-4E00-4E99-AA84-DD9B86156BE1}" ShortID="164144535" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Health_SFX" ID="{FC938DD6-A8AF-4065-B6B6-2DF200D00A36}" ShortID="193351254">
+							<Language>SFX</Language>
+							<AudioFile>Health_SFX.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Health_SFX" ID="{FC938DD6-A8AF-4065-B6B6-2DF200D00A36}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

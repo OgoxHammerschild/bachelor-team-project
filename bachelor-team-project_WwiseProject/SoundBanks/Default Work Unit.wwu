@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{99C94320-291D-497F-B688-901DEE1E0C2B}" SchemaVersion="75">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{99C94320-291D-497F-B688-901DEE1E0C2B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{99C94320-291D-497F-B688-901DEE1E0C2B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="AB_SFX" ID="{74CB68D3-9645-4F78-94E7-13385F9D4380}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ak_Laser_Shot" ID="{F7C18362-23B3-4836-88C6-E92330AEF5C5}" WorkUnitID="{C45091A6-8B34-4384-B37B-8C2AF896D4AD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ak_Armour_Pickup" ID="{8300D233-236F-490F-AFC6-A33B760E7812}" WorkUnitID="{C45091A6-8B34-4384-B37B-8C2AF896D4AD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ak_Health_Pickup" ID="{5D9FEDF7-AA6D-4C90-80FF-AE2941CF899B}" WorkUnitID="{C45091A6-8B34-4384-B37B-8C2AF896D4AD}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

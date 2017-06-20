@@ -14,6 +14,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Ak_Health_Pickup" ID="{5D9FEDF7-AA6D-4C90-80FF-AE2941CF899B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{AA4C9963-A863-42A0-ACB2-6BCBFAC78E99}" ShortID="696691001" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A2D6EF3C-857A-4C49-A7B2-65F993577939}" Global="false">
+									<ObjectRef Name="Health_SFX" ID="{C6C81EEF-4E00-4E99-AA84-DD9B86156BE1}" WorkUnitID="{3947967C-CEFB-4936-B325-79302BE562A6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ak_Armour_Pickup" ID="{8300D233-236F-490F-AFC6-A33B760E7812}">
+					<ChildrenList>
+						<Action Name="Play" ID="{77826B9C-07A5-4180-A138-D60BDBA1138B}" ShortID="604328474" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{86A32E8D-8DA4-48B4-B066-F033DEBBAFB2}" Global="false">
+									<ObjectRef Name="Armor_sfx_final" ID="{7EB78EC3-1B7F-4B77-B2D2-B82221EFF87B}" WorkUnitID="{3947967C-CEFB-4936-B325-79302BE562A6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

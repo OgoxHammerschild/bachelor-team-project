@@ -8,7 +8,7 @@
 						<Action Name="Play" ID="{583156E0-6E3C-4648-A796-79C8DB8BAA5D}" ShortID="91979854" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{FF28B8FA-FAFB-4A47-8940-17A99218A2ED}" Global="false">
-									<ObjectRef Name="laser-shot-silenced" ID="{8225EBD5-B660-487D-AA13-39144DE74747}" WorkUnitID="{3947967C-CEFB-4936-B325-79302BE562A6}"/>
+									<ObjectRef Name="laser shot SFX" ID="{9921414A-723C-44C4-B811-C970FBF56DBC}" WorkUnitID="{3947967C-CEFB-4936-B325-79302BE562A6}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -31,6 +31,72 @@
 							<ElementList>
 								<Element ID="{86A32E8D-8DA4-48B4-B066-F033DEBBAFB2}" Global="false">
 									<ObjectRef Name="Armor_sfx_final" ID="{7EB78EC3-1B7F-4B77-B2D2-B82221EFF87B}" WorkUnitID="{3947967C-CEFB-4936-B325-79302BE562A6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ak_Ammo_Pickup" ID="{8CB30BA1-2190-4A08-855C-974B28CEF6F3}">
+					<ChildrenList>
+						<Action Name="Play" ID="{DFACEB03-6C73-4BFE-AB6B-6C4E0D926EA2}" ShortID="263220493" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3572D030-A36D-4C93-AC1A-496EA0EB1E0E}" Global="false">
+									<ObjectRef Name="Ammo SFX" ID="{007B6FB4-5E37-48FF-9384-A020E3C1B592}" WorkUnitID="{3947967C-CEFB-4936-B325-79302BE562A6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ak_Env_SteamPump" ID="{0B5A469D-321D-4712-996E-4067D29DD575}">
+					<ChildrenList>
+						<Action Name="Play" ID="{ACA00178-C5A1-414A-A801-ADF37C390C94}" ShortID="470476931" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0435F035-6909-4385-B708-CB931CA6EB60}" Global="false">
+									<ObjectRef Name="environment air pumping" ID="{B645A2C1-E62F-49BE-91F7-BA673D26A901}" WorkUnitID="{3947967C-CEFB-4936-B325-79302BE562A6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ak_Menu_Click" ID="{F0912C46-6785-4BB0-922D-554A6C7BA337}">
+					<ChildrenList>
+						<Action Name="Play" ID="{1633DFC0-999B-4569-B844-E65A8BE5BD1B}" ShortID="649855060" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{71FC5A59-40D9-4A0D-9768-3FAF89CABD63}" Global="false">
+									<ObjectRef Name="menu sound click" ID="{1846ECAB-D978-44C8-982D-2A54B8BA2EB0}" WorkUnitID="{3947967C-CEFB-4936-B325-79302BE562A6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ak_Menu_Hover" ID="{C7ACB236-D036-44A8-90C8-5B4C949188C4}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E35EDD51-C364-4988-A58F-6AFEE127A145}" ShortID="266405476" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{15A9E609-F911-4D65-818C-534D9D4A04E4}" Global="false">
+									<ObjectRef Name="menu sound select" ID="{FF380CB9-3FB0-43F6-9A4A-F199C3B29763}" WorkUnitID="{3947967C-CEFB-4936-B325-79302BE562A6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ak_Walk" ID="{0B831E3D-832D-4FE9-A8E1-C3A2E37835D7}">
+					<ChildrenList>
+						<Action Name="Play" ID="{AEAF7774-0215-455D-9A02-1ABEC74876EF}" ShortID="975235919" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9F9EA66A-5D0A-4A2B-905E-12C78243675A}" Global="false">
+									<ObjectRef Name="WalkingRdmContainer" ID="{3D7CC09A-9203-4FB6-8CBE-C6DD8F3F1D83}" WorkUnitID="{3947967C-CEFB-4936-B325-79302BE562A6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ak_Run" ID="{8A9BE1DC-E072-43F7-832F-6517CBB94A63}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9D276CCD-693A-4A9E-93F0-6761D6FE1402}" ShortID="785270697" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DAE9F099-B939-43CD-B835-53D3103F2678}" Global="false">
+									<ObjectRef Name="RunningRdmContainer" ID="{08A38030-12CB-4415-9D29-7B625DEA06C8}" WorkUnitID="{3947967C-CEFB-4936-B325-79302BE562A6}"/>
 								</Element>
 							</ElementList>
 						</Action>

@@ -5,9 +5,15 @@
 			<ChildrenList>
 				<SoundBank Name="AB_SFX" ID="{74CB68D3-9645-4F78-94E7-13385F9D4380}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Ak_Run" ID="{8A9BE1DC-E072-43F7-832F-6517CBB94A63}" WorkUnitID="{C45091A6-8B34-4384-B37B-8C2AF896D4AD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ak_Menu_Hover" ID="{C7ACB236-D036-44A8-90C8-5B4C949188C4}" WorkUnitID="{C45091A6-8B34-4384-B37B-8C2AF896D4AD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ak_Env_SteamPump" ID="{0B5A469D-321D-4712-996E-4067D29DD575}" WorkUnitID="{C45091A6-8B34-4384-B37B-8C2AF896D4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Ak_Laser_Shot" ID="{F7C18362-23B3-4836-88C6-E92330AEF5C5}" WorkUnitID="{C45091A6-8B34-4384-B37B-8C2AF896D4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Ak_Armour_Pickup" ID="{8300D233-236F-490F-AFC6-A33B760E7812}" WorkUnitID="{C45091A6-8B34-4384-B37B-8C2AF896D4AD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ak_Ammo_Pickup" ID="{8CB30BA1-2190-4A08-855C-974B28CEF6F3}" WorkUnitID="{C45091A6-8B34-4384-B37B-8C2AF896D4AD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ak_Menu_Click" ID="{F0912C46-6785-4BB0-922D-554A6C7BA337}" WorkUnitID="{C45091A6-8B34-4384-B37B-8C2AF896D4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Ak_Health_Pickup" ID="{5D9FEDF7-AA6D-4C90-80FF-AE2941CF899B}" WorkUnitID="{C45091A6-8B34-4384-B37B-8C2AF896D4AD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ak_Walk" ID="{0B831E3D-832D-4FE9-A8E1-C3A2E37835D7}" WorkUnitID="{C45091A6-8B34-4384-B37B-8C2AF896D4AD}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

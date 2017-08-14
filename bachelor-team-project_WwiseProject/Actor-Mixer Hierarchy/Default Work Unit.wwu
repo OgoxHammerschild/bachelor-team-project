@@ -60,6 +60,531 @@
 						<ActiveSource Name="Health_SFX" ID="{FC938DD6-A8AF-4065-B6B6-2DF200D00A36}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Ammo SFX" ID="{007B6FB4-5E37-48FF-9384-A020E3C1B592}" ShortID="23580611" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ammo SFX" ID="{8193E6CA-CF33-4852-9285-9DC7968B2B8E}" ShortID="506134093">
+							<Language>SFX</Language>
+							<AudioFile>Ammo SFX.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Ammo SFX" ID="{8193E6CA-CF33-4852-9285-9DC7968B2B8E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="environment air pumping" ID="{B645A2C1-E62F-49BE-91F7-BA673D26A901}" ShortID="657670921" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="environment air pumping" ID="{80DE6D1A-5E1E-4FEF-B864-5F4C292FBFFF}" ShortID="589760116">
+							<Language>SFX</Language>
+							<AudioFile>environment air pumping.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="environment air pumping" ID="{80DE6D1A-5E1E-4FEF-B864-5F4C292FBFFF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Health SFX" ID="{5A694EA7-B5E2-44AB-A9B1-6FC3BFC39ABF}" ShortID="1006123055" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Health SFX" ID="{1CEED040-0786-4751-91E6-23F5649BF83D}" ShortID="434656487">
+							<Language>SFX</Language>
+							<AudioFile>Health SFX.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Health SFX" ID="{1CEED040-0786-4751-91E6-23F5649BF83D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="laser shot SFX" ID="{9921414A-723C-44C4-B811-C970FBF56DBC}" ShortID="297640971" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="laser shot SFX" ID="{155227F5-3157-40D2-A751-29DCEB45C55B}" ShortID="224072877">
+							<Language>SFX</Language>
+							<AudioFile>laser shot SFX.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="laser shot SFX" ID="{155227F5-3157-40D2-A751-29DCEB45C55B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="menu sound click" ID="{1846ECAB-D978-44C8-982D-2A54B8BA2EB0}" ShortID="1002998394" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="menu sound click" ID="{F062D691-A155-460A-9D8A-6C039EA14B87}" ShortID="881599237">
+							<Language>SFX</Language>
+							<AudioFile>menu sound click.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="menu sound click" ID="{F062D691-A155-460A-9D8A-6C039EA14B87}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="menu sound select" ID="{FF380CB9-3FB0-43F6-9A4A-F199C3B29763}" ShortID="260861901" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="menu sound select" ID="{2DAE83C8-0BEF-4880-9C19-0F5E7BF2F834}" ShortID="817048499">
+							<Language>SFX</Language>
+							<AudioFile>menu sound select.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="menu sound select" ID="{2DAE83C8-0BEF-4880-9C19-0F5E7BF2F834}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Folder Name="Walking-running SFX" ID="{C99C9616-0238-4240-B6A6-ADE29CE36D93}" ShortID="452147974">
+					<ChildrenList>
+						<RandomSequenceContainer Name="RunningRdmContainer" ID="{08A38030-12CB-4415-9D29-7B625DEA06C8}" ShortID="679354006">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Running_1" ID="{BB62F01B-851E-4A2E-B255-2F869FC2A86F}" ShortID="631637670" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Running_1" ID="{A7154DAD-8519-40D9-B2B9-98C1EAEE6D05}" ShortID="568992054">
+											<Language>SFX</Language>
+											<AudioFile>Walking-running SFX\running\Running_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Running_1" ID="{A7154DAD-8519-40D9-B2B9-98C1EAEE6D05}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Running_2" ID="{FC09B052-B843-42EA-A0CD-A3F8CDFC2390}" ShortID="449184612" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Running_2" ID="{FE921E45-6EAE-4BBE-ABF3-78DFA1CCAFB2}" ShortID="322696005">
+											<Language>SFX</Language>
+											<AudioFile>Walking-running SFX\running\Running_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Running_2" ID="{FE921E45-6EAE-4BBE-ABF3-78DFA1CCAFB2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Running_3" ID="{411DCC3F-0FF9-4F77-8EF3-0A688FA28BEE}" ShortID="999446496" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Running_3" ID="{872FE5D1-2599-4AFC-A4E1-BF633C41B21C}" ShortID="642312023">
+											<Language>SFX</Language>
+											<AudioFile>Walking-running SFX\running\Running_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Running_3" ID="{872FE5D1-2599-4AFC-A4E1-BF633C41B21C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Running_4" ID="{C6327B07-A65B-4000-B585-EB9BA83F5E6E}" ShortID="171836734" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Running_4" ID="{E448B9BE-E663-4D59-B0BF-D58C5819A2A2}" ShortID="40929022">
+											<Language>SFX</Language>
+											<AudioFile>Walking-running SFX\running\Running_4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Running_4" ID="{E448B9BE-E663-4D59-B0BF-D58C5819A2A2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Running_5" ID="{52D8AC3D-68F1-40F5-A7C4-4FB0BFA32A31}" ShortID="884450520" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Running_5" ID="{D404FB83-3E7B-4890-8D29-A187D84B1FBD}" ShortID="849536434">
+											<Language>SFX</Language>
+											<AudioFile>Walking-running SFX\running\Running_5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Running_5" ID="{D404FB83-3E7B-4890-8D29-A187D84B1FBD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Running_6" ID="{5FF2EB04-88FF-4525-AC68-A6C5EF98DCCE}" ShortID="819862438" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Running_6" ID="{07EA7DD8-F785-4C0D-BCA1-4C6D55048DB6}" ShortID="643881452">
+											<Language>SFX</Language>
+											<AudioFile>Walking-running SFX\running\Running_6.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Running_6" ID="{07EA7DD8-F785-4C0D-BCA1-4C6D55048DB6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Running_7" ID="{2A92C927-2328-405B-81F0-2F078CFB68D7}" ShortID="801538957" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Running_7" ID="{4C754D61-7F97-47BE-B78F-E76F7A520BE1}" ShortID="107240323">
+											<Language>SFX</Language>
+											<AudioFile>Walking-running SFX\running\Running_7.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Running_7" ID="{4C754D61-7F97-47BE-B78F-E76F7A520BE1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Running_8" ID="{411163DB-A49A-4A9E-BC7D-EB58A91734DD}" ShortID="543168765" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Running_8" ID="{EF6B962E-366D-4E53-9945-080C45132334}" ShortID="118125651">
+											<Language>SFX</Language>
+											<AudioFile>Walking-running SFX\running\Running_8.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Running_8" ID="{EF6B962E-366D-4E53-9945-080C45132334}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Running_9" ID="{FEC07A01-DBB6-43EF-976D-C9E50BF91234}" ShortID="56570436" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Running_9" ID="{C09AB24D-1546-469D-89CC-DB9A2ED0E6ED}" ShortID="680028391">
+											<Language>SFX</Language>
+											<AudioFile>Walking-running SFX\running\Running_9.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Running_9" ID="{C09AB24D-1546-469D-89CC-DB9A2ED0E6ED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Running_10" ID="{C527EB68-8F1E-40FF-87E4-EC32F42BF33B}" ShortID="86862982" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Running_10" ID="{530ADB48-A7C0-4391-9559-A39F5DB8ACA8}" ShortID="355347809">
+											<Language>SFX</Language>
+											<AudioFile>Walking-running SFX\running\Running_10.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Running_10" ID="{530ADB48-A7C0-4391-9559-A39F5DB8ACA8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="WalkingRdmContainer" ID="{3D7CC09A-9203-4FB6-8CBE-C6DD8F3F1D83}" ShortID="157418921">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Walking_1" ID="{BF5C5B35-6F57-44E9-9B4B-1D6E04F8299F}" ShortID="832734830" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Walking_1" ID="{54206267-D548-485B-976E-728EF0F7D673}" ShortID="925708170">
+											<Language>SFX</Language>
+											<AudioFile>Walking-running SFX\walking\Walking_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Walking_1" ID="{54206267-D548-485B-976E-728EF0F7D673}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Walking_2" ID="{1C1056F4-34CD-45D9-8780-0F29A6120F83}" ShortID="964311552" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Walking_2" ID="{CBD2F5EA-16B9-405F-BE87-6464D6503418}" ShortID="169608181">
+											<Language>SFX</Language>
+											<AudioFile>Walking-running SFX\walking\Walking_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Walking_2" ID="{CBD2F5EA-16B9-405F-BE87-6464D6503418}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Walking_3" ID="{78C8B031-8F3C-437E-A993-0BC04928E20B}" ShortID="546919357" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Walking_3" ID="{B06F3363-AA35-42BC-8055-F750B94C94A9}" ShortID="584470927">
+											<Language>SFX</Language>
+											<AudioFile>Walking-running SFX\walking\Walking_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Walking_3" ID="{B06F3363-AA35-42BC-8055-F750B94C94A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Walking_4" ID="{F29BBC2D-068C-4727-BB1C-C94805145459}" ShortID="99208464" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Walking_4" ID="{3A014CFE-C8C8-4E38-AC4F-E938D48970A1}" ShortID="1055268564">
+											<Language>SFX</Language>
+											<AudioFile>Walking-running SFX\walking\Walking_4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Walking_4" ID="{3A014CFE-C8C8-4E38-AC4F-E938D48970A1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Walking_5" ID="{3884256E-6C16-4806-BCC3-A0D79DF2663E}" ShortID="606443725" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Walking_5" ID="{17109073-AD59-4426-AC04-0E83BC15B995}" ShortID="996431125">
+											<Language>SFX</Language>
+											<AudioFile>Walking-running SFX\walking\Walking_5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Walking_5" ID="{17109073-AD59-4426-AC04-0E83BC15B995}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Walking_6" ID="{CD25879A-3EEF-4678-95F2-2A135E71B9EE}" ShortID="695024416" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Walking_6" ID="{25C3CA76-5622-4F2E-9142-0394D58B85BD}" ShortID="62788281">
+											<Language>SFX</Language>
+											<AudioFile>Walking-running SFX\walking\Walking_6.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Walking_6" ID="{25C3CA76-5622-4F2E-9142-0394D58B85BD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Walking_7" ID="{629AC1A0-631F-4DC0-A813-4ABE3FC785A7}" ShortID="598341278" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Walking_7" ID="{D2148B31-F6D5-4028-AB50-D0E78E4557D9}" ShortID="1029449547">
+											<Language>SFX</Language>
+											<AudioFile>Walking-running SFX\walking\Walking_7.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Walking_7" ID="{D2148B31-F6D5-4028-AB50-D0E78E4557D9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Walking_8" ID="{C034FA4A-D1EE-4274-9597-886B515DB191}" ShortID="776802288" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Walking_8" ID="{615ED420-8B65-466D-B8B4-051CE951EC2D}" ShortID="521349820">
+											<Language>SFX</Language>
+											<AudioFile>Walking-running SFX\walking\Walking_8.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Walking_8" ID="{615ED420-8B65-466D-B8B4-051CE951EC2D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Walking_9" ID="{2048C6F4-1A87-4B8D-A3F4-DBC945C5FE68}" ShortID="558191" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Walking_9" ID="{161CDA6B-810E-413E-B608-487901CB84EA}" ShortID="787533327">
+											<Language>SFX</Language>
+											<AudioFile>Walking-running SFX\walking\Walking_9.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Walking_9" ID="{161CDA6B-810E-413E-B608-487901CB84EA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Walking_10" ID="{8543F0DA-C6A8-44BD-9203-42A8241CFCF0}" ShortID="716162717" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F85A4893-5FCA-4649-8E58-8F09F6F78C17}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF120DB9-A3AE-4F9B-82C9-7CF616FB282F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Walking_10" ID="{045C8D1A-E5F6-4DCE-8A01-91D3D9DC4D73}" ShortID="611485007">
+											<Language>SFX</Language>
+											<AudioFile>Walking-running SFX\walking\Walking_10.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Walking_10" ID="{045C8D1A-E5F6-4DCE-8A01-91D3D9DC4D73}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
